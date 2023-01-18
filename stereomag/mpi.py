@@ -22,6 +22,10 @@ import time
 import tensorflow as tf
 import geometry.projector as pj
 from third_party.vgg import build_vgg19
+
+import sys, os
+sys.path.append("C:/Users/IT-Nerd/Desktop/STAGE/stereo-magnification/stereomag")
+
 from nets import mpi_net
 
 

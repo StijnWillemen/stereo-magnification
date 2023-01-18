@@ -18,3 +18,5 @@
 mkdir -p models
 wget -P models https://storage.googleapis.com/stereo-magnification-public-files/models/siggraph_model_20180701.tar.gz
 tar xzvf models/siggraph_model_20180701.tar.gz -C models
+
+$SHELL
